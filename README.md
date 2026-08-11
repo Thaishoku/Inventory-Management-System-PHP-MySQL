@@ -18,3 +18,13 @@ A web-based application designed for inventory tracking, borrowing management, a
 1. Create a database named `imsystem` in phpMyAdmin (`http://localhost/phpmyadmin/`).
 2. Import the `database/imsystem_schema.sql` file.
 3. Configure `config/db_connect.php` with your database credentials.
+
+## 🗄️ Database Architecture & Schema (ERD)
+
+The system database is structured into core inventory tracking and authentication/session management entities:
+
+### Inventory & Borrowing ERD
+![Inventory ERD](database/erd_inventory.png)
+
+### User Authentication & Role ERD
+![Authentication ERD](database/erd_login.png)
